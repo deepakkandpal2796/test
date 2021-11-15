@@ -1,0 +1,92 @@
+.hero-about {
+  min-height: 40vh;
+  font-weight: 700;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), transparent),
+    url('../img/image\ 2.png');
+  background-size: cover;
+  background-position: center;
+  color: $yellow-text;
+  display: flex;
+  @include flex(center, center, column);
+  text-align: center;
+}
+.about-conf {
+  width: 90%;
+  margin: auto;
+  padding: 5rem 0;
+  h3::after {
+    height: 0.5rem;
+    width: 30rem;
+    background-color: $yellow-text;
+    margin: 1rem 0;
+    display: block;
+    content: ' ';
+  }
+}
+.tracks {
+  width: 90%;
+  margin: auto;
+  padding: 0 0 2.5rem 0;
+  h3::after {
+    height: 0.5rem;
+    width: 15rem;
+    background-color: $yellow-text;
+    margin: 1rem 0;
+    display: block;
+    content: ' ';
+  }
+}
+.cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 80vh;
+}
+
+.card {
+  background-color: $background-color;
+  color: #fff;
+  border-radius: 1.5rem;
+  padding: 3rem;
+  flex: 1 1 25rem;
+  min-height: 60vh;
+  margin: 3rem 5rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3), 0px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-icon {
+  text-align: center;
+}
+
+.card-icon img {
+  max-width: 30%;
+  margin: 2rem;
+}
+
+.card h4,
+.card p {
+  padding: 0.8rem;
+}
+.card h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.deligates {
+  width: 90%;
+  margin: auto;
+  padding: 5rem 0;
+  h3::after {
+    height: 0.5rem;
+    width: 20rem;
+    background-color: $yellow-text;
+    margin: 1rem 0;
+    display: block;
+    content: ' ';
+  }
+}
+.footer {
+  width: 100%;
+  min-height: 40vh;
+  padding: 5rem 0;
+  background-color: $background-color;
+}

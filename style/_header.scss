@@ -1,0 +1,24 @@
+.main-head {
+  background: #2c2c2c;
+}
+
+.main-head nav {
+  width: 90%;
+  margin: auto;
+  min-height: 10vh;
+  padding: 2rem 0rem;
+  display: flex;
+  @include flex(center, center, row);
+}
+#logo {
+  color: $yellow-text;
+  flex: 1 1 40rem;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  flex: 3 1 40rem;
+}
+.burger {
+  display: none;
+}
